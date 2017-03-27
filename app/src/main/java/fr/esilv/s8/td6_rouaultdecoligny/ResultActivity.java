@@ -1,5 +1,6 @@
 package fr.esilv.s8.td6_rouaultdecoligny;
 
+/*
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.RecyclerView;
@@ -11,20 +12,22 @@ import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.google.gson.Gson;
 
+import adapters.Cell_resultAdapter;
 import models.Cell_result;
 
 /**
  * Created by auriane on 17/03/2017.
  */
 
+/*
 public class ResultActivity extends AppCompatActivity {
 
     private RecyclerView recyclerView;
     Cell_result cell_result;
-    Cell_resultAdapter adapter;
+    //Cell_resultAdapter adapter;
     Gson gson;
 
-    private String urlwithapikey;
+   // private String urlwithapikey;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,16 +44,18 @@ public class ResultActivity extends AppCompatActivity {
         recyclerView = (RecyclerView) findViewById(R.id.recyclerView);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 */
-        getResults();
-    }
+        //getResults();
+   /* }
 
 
-    public String getResults(String qtxt) {
+   /* public void  getResults() {
 
-        String qtext = qtxt.replaceAll("\\s","+");
+
+
         String url = "https://www.googleapis.com/youtube/v3/search?part=snippet&q='" + qtext + "'&type=video&key=AIzaSyC-gh5lUS4qmqcuHjVsyFzjKD-YodumBVY";
         String apikey = "AIzaSyC-gh5lUS4qmqcuHjVsyFzjKD-YodumBVY";
         String urlwithapikey = url + "key=" + apikey;
+
 
 
         final StringRequest request = new StringRequest(urlwithapikey, new Response.Listener<String>() {
@@ -74,7 +79,12 @@ public class ResultActivity extends AppCompatActivity {
         Volley.newRequestQueue(this).add(request);
     }
 
-    return qtxt;
+
+    public String setUrl(String wordsearch){
+        wordsearch = "https://www.googleapis.com/youtube/v3/search?part=snippet&q=" + wordsearch + "&type=video&key=AIzaSyC-gh5lUS4qmqcuHjVsyFzjKD-YodumBVY";
+        return wordsearch;
+    }
 
     }
 
+*/

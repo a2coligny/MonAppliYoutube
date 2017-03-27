@@ -1,45 +1,76 @@
 package adapters;
 
+import android.content.Context;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.BaseAdapter;
+import android.widget.ImageView;
+import android.widget.TextView;
+
+import com.squareup.picasso.Picasso;
+
+import java.util.List;
+
+import fr.esilv.s8.td6_rouaultdecoligny.R;
+import models.Cell_result;
+
 /**
  * Created by auriane on 22/03/2017.
 
+*/
 
 
 
+public class Cell_resultAdapter extends BaseAdapter{
 
-public class Cell_resultAdapter extends RecyclerView.Adapter<Cell_resultViewHolder>{
+    private List<Cell_result.ItemsBean> vids;
+    private Context con;
+    private LayoutInflater inflater;
 
-    private final Cell_result cell_result;
+    public Cell_resultAdapter(Context con, List<Cell_result.ItemsBean> vids)
+    {
+        this.vids = vids;
+        this.con = con;
+    }
 
-    private OnCellresultSelectedListener onCellresultSelectedListenernCellresultSelectedListener;
 
-    public Cell_resultAdapter(Cell_result cell_result) {
-        this.cell_result = cell_result;
+    @Override
+    public int getCount() {
+        return vids.size();
     }
 
     @Override
-    public ContractsViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.viewholder_contract, parent, false);
-        return new ContractsViewHolder(view);
+    public Object getItem(int position) {
+        return vids.get(position);
     }
 
     @Override
-    public void onBindViewHolder(Cell_resultViewHolder holder, int position) {
-        holder.setOnContractSelectedListener(onCellresultSelectedListener);
-        holder.bind(cell_result.get(position));
+    public long getItemId(int position) {
+        return 0;
     }
 
     @Override
-    public int getItemCount() {
-        return cell_result != null ? cell_result.size() : 0;
-    }
+    public View getView(int position, View convertView, ViewGroup parent) {
+        LayoutInflater inflater = (LayoutInflater) con.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        View vView = inflater.inflate(R.layout.vlist, parent, false);
 
-    public void setOnContractSelectedListener(OnCellresultSelectedListener onCellresultSelectedListener) {
-        this.onCellresultSelectedListener = onCellresultSelectedListener;
-    }
+        Cell_result.ItemsBean vitem = (Cell_result.ItemsBean) getItem(position);
+        TextView title = (TextView) vView.findViewById(R.id.titre);
+        TextView description = (TextView)vView.findViewById(R.id.description);
 
+        ImageView thumbnail = (ImageView) vView.findViewById(R.id.image);
+        String url = vitem.getSnippet().getThumbnails().getMedium().getUrl();
+        Picasso.with(con).load(url).into(thumbnail);
+
+
+
+        description.setText(vitem.getSnippet().getDescription());
+        title.setText(vitem.getSnippet().getTitle());
+
+        return vView;
+    }
 }
- */
 
 
 

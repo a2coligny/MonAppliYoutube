@@ -3,6 +3,24 @@
 
     <item
         is-multidex="true"
+        jar="/Users/auriane/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/auriane/AndroidStudioProjects/TD6_RouaultDeColigny/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.2_92a9603b68a1138397616ab3173e5c2ee05a0794/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/auriane/AndroidStudioProjects/TD6_RouaultDeColigny/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/auriane/AndroidStudioProjects/TD6_RouaultDeColigny/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.2.0_f90f931677df8fa2729495d1b644f8a2a09e2688/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/auriane/AndroidStudioProjects/TD6_RouaultDeColigny/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.2.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -30,75 +48,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/auriane/AndroidStudioProjects/TD6_RouaultDeColigny/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f90c84dfe840d20cf48a9bd35b1c6a5421422064">
-        <dex dex="/Users/auriane/AndroidStudioProjects/TD6_RouaultDeColigny/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_fd63a7e16742679bc19254e4393b141e604cd4e7/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/auriane/AndroidStudioProjects/TD6_RouaultDeColigny/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
-        <dex dex="/Users/auriane/AndroidStudioProjects/TD6_RouaultDeColigny/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.2.0_b64374e475455709f39fb171da56e51391332dea/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/auriane/AndroidStudioProjects/TD6_RouaultDeColigny/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
-        <dex dex="/Users/auriane/AndroidStudioProjects/TD6_RouaultDeColigny/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.2.0_f5bd7dd9ed1c5c5d9247f81d27d4b8fa50c3a817/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/auriane/AndroidStudioProjects/TD6_RouaultDeColigny/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
-        <dex dex="/Users/auriane/AndroidStudioProjects/TD6_RouaultDeColigny/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.2.0_5cba236771e314e960357ce92c7ccdc08f63c3ba/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/auriane/AndroidStudioProjects/TD6_RouaultDeColigny/app/build/intermediates/exploded-aar/com.android.volley/volley/1.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
-        <dex dex="/Users/auriane/AndroidStudioProjects/TD6_RouaultDeColigny/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.volley-volley-1.0.0_2d853e03ede27ce3c470cc4f4f18f7c120134c93/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/auriane/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.0/c4ba5371a29ac9b2ad6129b1d39ea38750043eff/gson-2.8.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c4ba5371a29ac9b2ad6129b1d39ea38750043eff">
-        <dex dex="/Users/auriane/AndroidStudioProjects/TD6_RouaultDeColigny/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.8.0_f9c930213e9358fd0265f4aff412be4e6e1f3eff/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/auriane/AndroidStudioProjects/TD6_RouaultDeColigny/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/auriane/AndroidStudioProjects/TD6_RouaultDeColigny/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.2.0_f90f931677df8fa2729495d1b644f8a2a09e2688/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/auriane/AndroidStudioProjects/TD6_RouaultDeColigny/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
         <dex dex="/Users/auriane/AndroidStudioProjects/TD6_RouaultDeColigny/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.2.0_32195f1c2c9a662f270d82c81792b07c0d1cb63a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/auriane/AndroidStudioProjects/TD6_RouaultDeColigny/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="441406c3d71d3c25aa0632a8bd7d2f9742a39de9">
+        <dex dex="/Users/auriane/AndroidStudioProjects/TD6_RouaultDeColigny/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_fd63a7e16742679bc19254e4393b141e604cd4e7/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -120,6 +84,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/auriane/AndroidStudioProjects/TD6_RouaultDeColigny/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
+        <dex dex="/Users/auriane/AndroidStudioProjects/TD6_RouaultDeColigny/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.2.0_b64374e475455709f39fb171da56e51391332dea/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/auriane/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.2.0/support-annotations-25.2.0.jar"
         jumboMode="true"
         optimize="true"
@@ -129,12 +102,48 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/auriane/AndroidStudioProjects/TD6_RouaultDeColigny/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="/Users/auriane/AndroidStudioProjects/TD6_RouaultDeColigny/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.2.0_f5bd7dd9ed1c5c5d9247f81d27d4b8fa50c3a817/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/auriane/AndroidStudioProjects/TD6_RouaultDeColigny/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
+        <dex dex="/Users/auriane/AndroidStudioProjects/TD6_RouaultDeColigny/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.2.0_5cba236771e314e960357ce92c7ccdc08f63c3ba/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/auriane/AndroidStudioProjects/TD6_RouaultDeColigny/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.2.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
         <dex dex="/Users/auriane/AndroidStudioProjects/TD6_RouaultDeColigny/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.2.0_82a533d262d525fec176dad6d730399ee3124b0e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/auriane/AndroidStudioProjects/TD6_RouaultDeColigny/app/build/intermediates/exploded-aar/com.android.volley/volley/1.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="/Users/auriane/AndroidStudioProjects/TD6_RouaultDeColigny/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.volley-volley-1.0.0_2d853e03ede27ce3c470cc4f4f18f7c120134c93/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/auriane/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.0/c4ba5371a29ac9b2ad6129b1d39ea38750043eff/gson-2.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c4ba5371a29ac9b2ad6129b1d39ea38750043eff">
+        <dex dex="/Users/auriane/AndroidStudioProjects/TD6_RouaultDeColigny/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.8.0_f9c930213e9358fd0265f4aff412be4e6e1f3eff/classes.dex" />
     </item>
 
 </items>

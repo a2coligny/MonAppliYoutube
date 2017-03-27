@@ -2,7 +2,7 @@ package fr.esilv.s8.td6_rouaultdecoligny;
 
 /**
  * Created by auriane on 23/03/2017.
- */
+
 
 import android.os.Bundle;
 import android.widget.TextView;
@@ -33,12 +33,12 @@ public class Play extends YoutubeBaseActivity implements YouTubePlayer.OnInitial
         Bundle extras = getIntent().getExtras();
         String text = (extras != null ? extras.getString("data") : null);
 
-        /*Recupération données liées à la video */
+        /*Recupération données liées à la video
         videotext.setText(text);
         VIDEO_ID = text;
 
 
-       /* Youtube Player */
+       /* Youtube Player
         YouTubePlayerView youTubePlayerView = (YouTubePlayerView) findViewById(R.id.youtube_player);
         onInitializedListener = new YouTubePlayer.OnInitializedListener() {
             @Override
@@ -57,3 +57,4 @@ public class Play extends YoutubeBaseActivity implements YouTubePlayer.OnInitial
     }
 
 }
+*/
